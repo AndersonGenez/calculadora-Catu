@@ -1,24 +1,25 @@
 #skin {
 	margin-left: auto;
 	margin-right: auto;
+	
 	align-content: center;
 	border: solid 4px;
 	width: auto;
 	height: auto;
-	padding-left: 6;
-	padding-right: 6;
-	padding-top: 9;
-	padding-bottom: 6;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 	border-color: rgba(32, 32, 32, 0.462);
 	background-color: rgb(185, 183, 183);
 	border-radius: 11px;
 }
 #visor {
 	border: solid 2px;
-	width: 9.1em;
+	width: 7.3em;
 	height: 2em;
 	text-align: right;
-	line-height: 2em;
+	/*line-height: 2em;*/
 	display: inline-block;
 	overflow: hidden;
 	background-color: rgb(97, 236, 222);
@@ -26,23 +27,60 @@
 	border-radius: 6px;
 }
 .boton {
-	width: 37px;
-	height: 35px;
-	border-radius: 10px;
+	width: 5em;
+	height: 5em;
+	border-radius: 15px;
 	color: black;
 	border-width: 3px;
 	border-color: rgba(136, 135, 135, 0.707);
 	border-bottom-color: grey;
+	
 }
 #borde {
+	font-size: 40px;
 	border-color: black;
 	border: solid 3px;
-	width: 12em;
-	height: 7px auto;
+	width: 30%;
+	max-width: 1300px;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 14px;
+	min-width: 10em;
 }
 .uno {
 	padding-top: 3px;
+}
+.pepe{
+	width: 5em;
+	height: 5em;
+	border: solid black;
+}
+
+/* Movile design*/
+.pepe{
+	width: 10px;
+	height: 10px;
+	border: solid blue;
+	}
+body{
+	font-size: 20px;
+}
+#borde{
+	width: 30%;
+	border: solid black;
+}
+@media (max-width: 900px){
+	#borde{
+		font-size: 32px;
+		width: 80%;
+	}
+	.boton {
+		width: 7em;
+		height: 7em;
+	}
+	#visor{
+		margin-top: 1em;
+		width: 80%;
+	}
 }
