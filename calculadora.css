@@ -38,8 +38,7 @@
 }
 #borde {
 	font-size: 40px;
-	border-color: black;
-	border: solid 3px;
+	border: solid 3px black;
 	width: 30%;
 	max-width: 1300px;
 	height: auto;
@@ -57,19 +56,10 @@
 	border: solid black;
 }
 
-/* Movile design*/
-.pepe{
-	width: 10px;
-	height: 10px;
-	border: solid blue;
-	}
 body{
 	font-size: 20px;
 }
-#borde{
-	width: 30%;
-	border: solid black;
-}
+/* Movile design*/
 @media (max-width: 900px){
 	#borde{
 		font-size: 32px;
